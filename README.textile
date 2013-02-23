@@ -8,3 +8,22 @@ h2. Functions include:
 * Allow a user to create a shopping list connecting with the meal plan and recipes
 
 h2. Import popular recipes website data
+
+* to-do
+
+h2. Contributing
+
+If you make improvements to this application, please share with others.
+
+If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
+
+h2. Credits
+
+* to-do
+
+
+h2. MIT License
+
+"MIT License":http://www.opensource.org/licenses/mit-license
+
+Copyright © 2013 Josh Lin
