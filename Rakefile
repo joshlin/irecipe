@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-iRecipe::Application.load_tasks
+Irecipe::Application.load_tasks
