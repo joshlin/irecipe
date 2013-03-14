@@ -1,0 +1,10 @@
+<%= form_for (@recipe) do |f| %>
+<p><br>
+<%= f.text_field :name, :placeholder => "Recipe Name" %>
+</p>
+<div class='recipe_description'>
+<h4>Brief Description</h4>
+<%= f.text_area :description, :placeholder => "Give your recipe a short description." %>
+</div>
+<%= f.submit 'Preview Recipe', :class => 'btn btn-pink' %>
+<% end %>

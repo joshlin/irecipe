@@ -1,0 +1,33 @@
+// Place all the styles related to the recipe controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+input#recipe_name {
+	width:600px;
+	border: 1px solid #999;
+	padding: 5px 5px 5px 10px;
+	font-size: 20px;
+	line-height: 24px;
+	height: 34px;
+	/*box-shadow: inset 0 1px 4px rgba(0,0,0,0.4),0 1px 0 rgba(255,255,255,0.4);*/
+	box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+	-webkit-box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+}
+
+textarea#recipe_description {
+	width:300px;
+	height: 150px;
+	border: 1px solid #999;
+	padding: 8px;
+	font-size: 16px;
+	line-height: 20px;		
+	box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+	-webkit-box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 4px RGBA(0,0,0,.4);
+
+}
+
+.recipe_description h4{
+	margin: 30px 0 10px 0;
+}

@@ -13,6 +13,11 @@
     <li>
     <%= link_to 'Edit account', edit_user_registration_path %>
     </li>
+    <li>
+    <%= link_to new_recipe_path do %>
+       <i class='icon-pencil icon-black'></i> Write Recipe
+    <% end %>
+    </li>
     <% if current_user.has_role? :admin %>
       <li>
       <%= link_to 'Admin', users_path %>
